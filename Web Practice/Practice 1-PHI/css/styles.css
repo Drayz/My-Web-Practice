@@ -1,0 +1,192 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #ffffff;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+.container:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+/*******
+ HEADER 
+********/
+
+#headerdiv {
+    height: 79px;
+    background-color:#ffffff; 
+}
+
+
+#logodiv {
+    float:left;
+    padding-top: 17px;
+}
+
+#headernav {
+    float: right;
+}
+
+#headernav ul {
+    font-size: 0.85em
+}
+
+#headernav li {
+    list-style: none;
+    display:block;
+    float: left;
+    padding: 26px 0 0 20px; 
+}
+
+#headernav a {
+    color: #6d5e5b;
+    text-decoration: none;
+    
+}
+
+
+/***********
+ NAVIGATION
+************/
+#navbar {
+    background-color:#7797d0;
+    padding:35px 0;
+}
+
+#navbar ul {
+    overflow: hidden;
+    padding: 0 40px;
+}
+
+#navbar li {
+    list-style-type: none;
+    margin: 0 10px; 
+    float:left;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 0 20px 0 20px
+}
+
+#navbar a:hover {
+    text-decoration:underline; 
+}
+
+
+/*********
+  CONTENT
+**********/
+
+#content{
+    background:#c3c7ce url('images/main.png') center center no-repeat;
+	padding:30px 0 20px;
+}
+
+#contentlist{
+	width:320px;
+}
+#contentlist li
+{
+	text-align:center;
+	margin:0 0 20px;
+    list-style: none;
+}
+
+#contentlist a
+{
+	display:block;
+	color:white;
+	padding:10px;
+	font-size:16px;
+	font-weight:bold;
+	background:#6988b7;
+	text-transform:uppercase;
+	border:3px solid #6c6f76;
+	border-radius:10px;
+	box-shadow:1px 1px 4px white;
+}
+
+#contentlist a:hover
+{
+	color:#6988b7;
+	background:white;
+}
+
+/******
+ INFO
+*******/
+
+#article
+{
+    color: dimgrey;
+	width:600px;
+	float:left;
+}
+#article h2
+{
+    margin-top:10px;
+	font-size:25px;
+    font-weight: 100;
+}
+#article hr
+{
+	margin:10px 0;
+}
+#article p
+{
+	margin:0 0 20px;
+	font-size:20px;
+	line-height:25px;
+}
+
+#aside {
+    width:340px;
+    float:right; 
+    color: dimgrey;
+}
+
+#aside h2 {
+    margin: 10px 0;
+    font-weight:100;
+    font-size:25px;
+}
+
+#aside ul {
+    font-size: 18px;
+}
+
+#aside li {
+    list-style:none;
+    padding:8px 0 8px 15px;
+	background:url('images/arrow.png') left center no-repeat;
+}
+
+#socialtwitter {
+    width: 50px;
+    float: left;
+    padding-right:25px;
+}
+
+#socialfacebook {
+    width:60px;
+    float: left;
+    padding-right: 25px;
+}
+
+#socaillinkedin {
+    width:55px;
+    float:left;        
+}

@@ -1,0 +1,263 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+  style.css
+
+  Colors
+  ======
+ Dark Navy Blue:       #0a2540
+ Medium Blue:          #066895
+ Light Blue:           #0278b6
+ grey blue:            #0278b6
+ White:                #ffffff
+ Pale white:           #f3f3f3
+ Medium Grey:          #929292
+ Dark Grey:            #333333
+ graident grey light:  #4b4d4a
+*/
+
+/* ----------------------------
+    General Styles
+   ---------------------------- */
+html{
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility; 
+}
+
+body{
+  font-family: "Helvetica Neue", Helvetica, Arial, san-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #444444;
+}
+
+/* ----------------------------
+    Layout Styles
+   ---------------------------- */
+.container {
+  width: 940px;
+  padding: 0 10px;
+  margin: 0 auto; 
+}   
+   
+.column {
+  
+}
+
+header {
+  background: #0a2540;
+}
+  
+#nav-2 {
+  background: #066895;
+}
+ 
+#hero {
+  background: #0278b6;
+} 
+
+#content {
+  background: #f3f3f3;
+}
+
+footer {
+  background: #4b4d4a;
+  padding: 55px 0;
+}
+ 
+#column-content {
+  width: 700px;
+  float: left;
+}
+
+/* ----------------------------
+    Typography
+   ---------------------------- */  
+h1, h2, h3 {
+  font-weight: 300;
+  margin: 0;
+  line-height: 45px;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+h6 {
+  font-size: 12px;
+}
+  
+  
+/* ----------------------------
+    Navigation
+   ---------------------------- */
+
+#company-logo {
+  padding:30px 0; 
+  float: left;
+}
+
+#company-logo h2{
+  color: #ffffff;
+}
+
+#tag {
+  font-weight:100;
+  padding-top: 2px;
+}
+
+   
+#nav-1 ul {
+  margin: 0;
+  padding: 0;
+  float: right;
+  font-size: 16px;
+}
+
+#nav-1 ul li {
+  list-style: none;
+  float: left;
+}   
+
+#nav-1 ul li a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  font-weight:lighter;
+  padding: 10px 24px;
+  margin: 45px 0px;
+}
+
+#nav-1 ul li a:hover {
+   border-radius: 25px;
+   background: #066895;
+}
+
+/* ----------------------------
+    Navigation 2
+   ---------------------------- */
+
+#nav-2 ul {
+  margin: 0;
+  padding: 0;
+  float: left;
+  font-size: 16px; 
+}
+ 
+#nav-2 ul li {
+  list-style: none;
+  float: left;
+}
+
+#nav-2 ul li a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  font-weight:lighter;
+  padding: 10px 21px;
+}
+
+#nav-2 ul li a:hover {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+/* ----------------------------
+    Hero
+   ---------------------------- */
+
+.container-hero-img {
+  width: 972px;
+  height: 385px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#hero-image {
+  padding: 24px 0 52px 0;
+}
+  
+/* ----------------------------
+    Content
+   ---------------------------- */
+
+#content {
+  padding: 40px 0;
+}
+
+#column-content {
+   width: inherit;
+   margin: 10px 0;
+   padding: 0;   
+}
+
+.column-three {
+   width: 280px;
+   float: left;
+   margin: 0 15px;   
+}
+
+.column-three h3 {
+   color:#0278b6; 
+}
+
+#news h3 {
+   color: #0278b6;
+}
+
+#news p{
+   margin: 10px 0;
+}
+
+.btn {
+ 
+}
+
+/* ----------------------------
+    Footer
+   ---------------------------- */
+
+#copyright {
+  color:#acacac;
+  float: left;
+}
+
+#creator {
+  color:#acacac;
+  float: right;
+}
+
+/* ----------------------------
+    Global Styles
+   ---------------------------- */
+   
+.clearfix:before, 
+.clearfix:after {
+  content: "";
+  display: table;
+}   
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1; /* For IE6/7 (trigger has Layout) */
+}
